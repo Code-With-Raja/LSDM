@@ -42,4 +42,4 @@ app.use(bodyParser.json());
   });
 
 
-app.listen(3000)
+app.listen(3000, console.log("Server is running"))
